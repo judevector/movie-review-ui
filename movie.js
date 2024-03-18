@@ -2,7 +2,7 @@ const url = new URL(location.href);
 const movieId = parseInt(url.searchParams.get("id"));
 const movieTitle = url.searchParams.get("title");
 
-const apiLink = "http://127.0.0.1:3000/api/v1/reviews/";
+const apiLink = "https://movie-review-api-0eqn.onrender.com/api/v1/reviews/";
 
 var foundCount = 0;
 console.log("gg");
